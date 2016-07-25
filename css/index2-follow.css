@@ -1,0 +1,143 @@
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+.navbar-inverse{border-radius: 0;}
+.intro-header{
+    height: 870px;
+    text-align: center;
+    background: url("http://bbs.static.coloros.com/data/attachment/forum/201404/14/132223fl36ao2a13o8ozft.jpg") no-repeat center center fixed;
+    background-size:cover ;
+}
+.bg-overlay{
+    height: inherit;
+    width: 100%;
+    background-color: rgba(0,0,0,0.3);
+}
+.intro-message{
+    padding:20% 0;
+    position: relative;
+}
+.intro-message >h1{
+    text-shadow: 2px 1px 2px #000;
+    font-size: 5em;
+    color: #ddd;
+    font-weight:700 ;
+}
+.intro-message >h3{
+    text-shadow: 2px 1px 2px #000;
+    font-size: 2em;
+    color: #333;
+}
+hr.intro-divider{
+    border: 1px outset rgba(255,255,255,0.2);
+    box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+
+}
+.row .btn {
+    display: inline-block;
+    color: #000;
+    border: 2px outset rgba(0, 0, 0, 0.9);
+    background: #C0C0C0;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    letter-spacing: 2px;
+    transition: 0.2s;
+}
+.row .btn:hover{
+    color: #fff;
+    border: 2px outset rgba(0, 0, 0, 0.9);
+    background: rgba(0,0,0, 0.9);
+    transform:scale(1.1);
+    transition: 0.2s;
+    text-shadow: 1px 1px 1px rgba(0,0,0, 20);
+    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
+    letter-spacing: 2px;
+}
+.content-section{
+    background:url("http://attach.bbs.miui.com/forum/201411/25/215148f1zvsn7vg4qkin4n.jpg")  no-repeat center center fixed;
+    background-size: cover;
+    height: 870px;
+    color: white;
+}
+.content-section h1{margin-top: 100px;font-weight: 700;
+    font-size:50px;
+}
+.content-section .lead{font-weight: 600;}
+
+.index-item3{
+    height: 870px;
+    background:url("http://image.tianjimedia.com/uploadImages/2015/153/07/P4DLEBM0P5IG_1000x500.jpg")  no-repeat center center fixed;
+    background-size: cover;
+}
+.index-item3 h2{color: white;font-size: 50px;margin-top: 80px;}
+.index-item3 h3{color: white;font-size: 36px;}
+.portfolio-item{height: 360px;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    transition:all 0.5s;
+}
+.portfolio-item:hover{
+    box-shadow: 0 0 4px #333;
+    background-color: #ccc;
+}
+.portfolio-item:hover .portfolio-hover{opacity: 1;}
+.portfolio-item img{height: 240px;width: 100%;
+}
+.portfolio-caption{background-color: #333;color: #fff;
+    overflow: hidden;
+}
+.portfolio-link{
+    display: block;
+    height: 240px;
+    position: relative;
+}
+.portfolio-hover{
+    position: absolute;
+    top:0;right: 0;left: 0;bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    opacity: 0;
+}
+.portfolio-hover .glyphicon{font-size: 100px;color: white;}
+.index-item4{height: 850px;
+    overflow: hidden;
+    background: url("https://timgsa.baidu.com/timg?image&quality=80&size=b10000_10000&sec=1469188765960&di=0b994d7e28f62dfc5716521561997522&imgtype=jpg&src=http%3A%2F%2Fwww.9yaocn.com%2Fattachments%2F201412%2F05%2F13%2Fgwxafhc87.jpg") no-repeat center center fixed;
+    background-size:cover;
+}
+.banner-social-buttons > li{
+    display: block;
+    margin-bottom: 20px;
+}
+.index-item4 .row{margin-top: 150px;}
+footer{
+    padding: 30px;
+    background-color: #ccc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
